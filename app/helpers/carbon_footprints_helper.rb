@@ -1,0 +1,2 @@
+module CarbonFootprintsHelper
+end
