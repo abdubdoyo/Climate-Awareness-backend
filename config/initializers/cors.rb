@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins "http://localhost:3001", "https://git.heroku.com/gentle-coast-92769.git"
+    origins "http://localhost:3001", "https://gentle-coast-92769.herokuapp.com"
 
     resource "*",
       headers: :any,
