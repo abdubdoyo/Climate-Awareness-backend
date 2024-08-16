@@ -110,6 +110,7 @@ GEM
     nio4r (2.7.3)
     nokogiri (1.15.6-x86_64-linux)
       racc (~> 1.4)
+    pg (1.5.7)
     psych (5.1.2)
       stringio
     puma (5.6.8)
@@ -171,10 +172,11 @@ DEPENDENCIES
   bcrypt
   bootsnap
   debug
+  pg (~> 1.2)
   puma (~> 5.0)
   rack-cors
   rails (~> 7.0.8, >= 7.0.8.4)
-  sqlite3 (~> 1.4)
+  sqlite3
   tzinfo-data
 
 RUBY VERSION
