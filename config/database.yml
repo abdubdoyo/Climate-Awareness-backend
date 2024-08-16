@@ -11,7 +11,10 @@ default: &default
 
 development:
   <<: *default
+  host: localhost
   database: climate_awareness_backend_development
+  username: abdub
+  password: abdub123
 
 test:
   <<: *default
