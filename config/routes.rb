@@ -6,4 +6,10 @@ Rails.application.routes.draw do
   post '/signup', to: 'users#create'
   post '/login', to: 'sessions#create'
   delete 'logout', to: 'sessions#destroy'
+
+  namespace :api do
+        namespace :v1 do
+          post 'chatbot/ask', to: 'chatbot#ask'
+        end
+  end
 end

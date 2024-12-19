@@ -12,6 +12,10 @@ gem 'sqlite3', group: [:development, :test]
 
 gem 'pg', '~> 1.2'
 
+gem 'httparty'
+
+gem 'dotenv-rails'
+
 gem 'rack-cors'
 
 gem 'bcrypt'
